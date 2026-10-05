@@ -30,3 +30,12 @@ GitHubの保存ブランチ: `codex/before-shoot-image-swap`
 生成指示：トレーナーの顔だけを架空の日本人男性（35歳前後、整った短髪、広めの顎、親しみやすい表情）へ変更。白いシャツの利用者の元の顔・髪・表情・服装・姿勢を保つ。ジム・機材・照明・構図は維持し、全体の露出は変更しない。トレーニング画像ではトップ画像の変更後トレーナーを顔の参照にする。
 
 修正前コミット：`c5c70a6173989d7ade129304a7eee890cae88e4c`。最初の公開状態は引き続き `codex/before-shoot-image-swap` に保存。
+
+## 元の撮影写真を使用（v5）
+
+顔の加工・AI生成を使わず、撮影フォルダの元写真に差し替え。Web表示向けに幅1600pxへの縮小・WebP変換のみ実施（Sharp、品質88）。顔・服装・背景・色は加工していません。元の撮影データは変更していません。
+
+- トップ：`14-DSCF3314.jpeg` → `riche-cloudflare/assets/hero-original-v5.webp`
+- トレーニング紹介：`8-DSCF3347.jpeg` → `riche-cloudflare/assets/training-original-v5.webp`
+
+直前の公開コミット：`fb769227b8a4619240312b403e0ce26195f1a4f8`。今回のコミットをrevertすれば直前へ戻せます。最初の公開状態は `codex/before-shoot-image-swap` に保存しています。v4は未公開です。
