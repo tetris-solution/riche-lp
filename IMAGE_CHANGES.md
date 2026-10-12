@@ -44,7 +44,7 @@ GitHubの保存ブランチ: `codex/before-shoot-image-swap`
 
 撮影フォルダ `【撮影】RICHE_女性_251212` の実写写真を使用。女性・男性トレーナー・店舗背景を撮影時のまま保持。AI画像生成・顔の加工・合成なし。縮小とWebP変換のみ（Sharp、品質90）。
 
-- トップ：`mur_079.JPG` → `riche-cloudflare/assets/hero-women-v6.webp`（1800×1350）
+- トップ：`mur_079.JPG` → `riche-cloudflare/assets/hero-women-v6.webp`（1800×1351）
 - トレーニング紹介：`mur_069.JPG` → `riche-cloudflare/assets/training-women-v6.webp`（1600×1200）
 
 変更前コミット：`b222a21683b6638403ef7de1fc8c07a509506384`。今回のコミットをrevertすれば変更前の写真へ戻せます。以前の画像は保持。
